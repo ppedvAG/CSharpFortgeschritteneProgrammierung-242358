@@ -11,11 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic", "Generic\Generic.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{E2C878EF-0EF0-4C6E-9471-A2F9AA1229FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesWPF", "DelegatesWPF\DelegatesWPF.csproj", "{802B2785-2A5A-4A66-B8BB-772490CA2E79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesWPF", "DelegatesWPF\DelegatesWPF.csproj", "{802B2785-2A5A-4A66-B8BB-772490CA2E79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{33056DFC-3858-4E7D-BEF0-64D3857B8F81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{33056DFC-3858-4E7D-BEF0-64D3857B8F81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitasking", "Multitasking\Multitasking.csproj", "{564B1F8F-B2B9-4699-88E4-F0854B2C721D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitasking", "Multitasking\Multitasking.csproj", "{564B1F8F-B2B9-4699-88E4-F0854B2C721D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{DF9AB625-FB2A-4033-AAE9-CDB36A18FE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{F8322644-ECD7-4751-8691-8FF3342ED7FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{564B1F8F-B2B9-4699-88E4-F0854B2C721D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564B1F8F-B2B9-4699-88E4-F0854B2C721D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564B1F8F-B2B9-4699-88E4-F0854B2C721D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9AB625-FB2A-4033-AAE9-CDB36A18FE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9AB625-FB2A-4033-AAE9-CDB36A18FE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9AB625-FB2A-4033-AAE9-CDB36A18FE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9AB625-FB2A-4033-AAE9-CDB36A18FE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8322644-ECD7-4751-8691-8FF3342ED7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8322644-ECD7-4751-8691-8FF3342ED7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8322644-ECD7-4751-8691-8FF3342ED7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8322644-ECD7-4751-8691-8FF3342ED7FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
